@@ -9,7 +9,7 @@ public class Permissions {
 
 	public static void main(String[] args) throws IOException {
 		s = new Scanner (System.in);
-		System.out.println("Enter text Filename  ::  ");
+		System.out.println("Enter Filename  ::  ");
 		String str = s.next();
 		File f = new File(str);
 		boolean exists = f.exists();
